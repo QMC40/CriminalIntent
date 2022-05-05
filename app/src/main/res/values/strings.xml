@@ -1,11 +1,11 @@
 <resources>
-    <string name="app_name">CriminalIntent</string>
-    <string name="crime_title_hint">Enter a title for the crime.</string>
-    <string name="crime_title_label">Title</string>
-    <string name="crime_details_label">Details</string>
+    <string name="app_name">Budget</string>
+    <string name="expense_title_hint">Enter a title for the expense.</string>
+    <string name="expense_title_label">Title</string>
+    <string name="expense_details_label">Details</string>
     <string name="crime_solved_label">Solved</string>
-    <string name="crime_title">Crime Title</string>
-    <string name="crime_date">Crime Date</string>
-    <string name="new_crime">New Crime</string>
+    <string name="expense_title">Expense Title</string>
+    <string name="expense_date">Expense Date</string>
+    <string name="new_expense">New Expense</string>
     <string name="todo">TODO</string>
 </resources>

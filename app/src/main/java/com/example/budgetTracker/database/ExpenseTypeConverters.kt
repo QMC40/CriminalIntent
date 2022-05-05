@@ -1,9 +1,9 @@
-package com.example.criminalintent.database
+package com.example.budgetTracker.database
 
 import androidx.room.TypeConverter
 import java.util.*
 
-class CrimeTypeConverters {
+class ExpenseTypeConverters {
     @TypeConverter
     fun fromDate(date: Date?): Long? {
         return date?.time

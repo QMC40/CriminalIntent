@@ -1,12 +1,12 @@
-package com.example.criminalintent
+package com.example.budgetTracker
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
+import com.example.criminalintent.R
 import java.util.*
 
 private const val TAG = "MainActivity"
-class MainActivity : AppCompatActivity(), CrimeListFragment.Callbacks {
+class MainActivity : AppCompatActivity(), ExpenseListFragment.Callbacks {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -15,16 +15,16 @@ class MainActivity : AppCompatActivity(), CrimeListFragment.Callbacks {
         val currentFragment =
             supportFragmentManager.findFragmentById(R.id.fragment_container)
         if (currentFragment == null) {
-            val fragment = CrimeListFragment.newInstance()
+            val fragment = ExpenseListFragment.newInstance()
             supportFragmentManager
                 .beginTransaction()
                 .add(R.id.fragment_container, fragment)
                 .commit()
         }
     }
-    override fun onCrimeSelected(crimeId: UUID) {
+    override fun onExpenseSelected(expenseId: UUID) {
 
-        val fragment = CrimeFragment.newInstance(crimeId)
+        val fragment = ExpenseFragment.newInstance(expenseId)
 
         supportFragmentManager
             .beginTransaction()

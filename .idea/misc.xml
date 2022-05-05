@@ -7,7 +7,11 @@
         <entry key="..\:/Users/panze/AndroidStudioProjects/CriminalIntent/app/src/main/res/layout/activity_main.xml" value="0.41944444444444445" />
         <entry key="..\:/Users/panze/AndroidStudioProjects/CriminalIntent/app/src/main/res/layout/fragment_crime.xml" value="0.41944444444444445" />
         <entry key="..\:/Users/panze/AndroidStudioProjects/CriminalIntent/app/src/main/res/layout/fragment_crime_list.xml" value="0.28020833333333334" />
+        <entry key="..\:/Users/panze/AndroidStudioProjects/CriminalIntent/app/src/main/res/layout/fragment_expense.xml" value="0.12552083333333333" />
+        <entry key="..\:/Users/panze/AndroidStudioProjects/CriminalIntent/app/src/main/res/layout/fragment_expense_list.xml" value="0.12552083333333333" />
         <entry key="..\:/Users/panze/AndroidStudioProjects/CriminalIntent/app/src/main/res/layout/list_item_crime.xml" value="0.75" />
+        <entry key="..\:/Users/panze/AndroidStudioProjects/CriminalIntent/app/src/main/res/layout/list_item_expense.xml" value="0.12552083333333333" />
+        <entry key="..\:/Users/panze/AndroidStudioProjects/CriminalIntent/app/src/main/res/menu/fragment_expense_list.xml" value="0.12552083333333333" />
       </map>
     </option>
   </component>
