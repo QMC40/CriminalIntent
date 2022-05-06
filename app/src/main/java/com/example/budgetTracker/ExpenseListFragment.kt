@@ -47,7 +47,7 @@ class ExpenseListFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val view = inflater.inflate(R.layout.fragment_expense_list.xml, container, false)
+        val view = inflater.inflate(R.layout.fragment_expense_list, container, false)
         expenseRecyclerView =
             view.findViewById(R.id.expense_recycler_view) as RecyclerView
         expenseRecyclerView.layoutManager = LinearLayoutManager(context)
